@@ -9,7 +9,7 @@ Do not use this tool unless you understand the security implications. I am by no
 If compiling fails with port's `libiconv` incompatibility error:
 
 ```console
-$ RUSTFLAGS="-L /usr/lib -l iconv" cargo build --releas
+$ RUSTFLAGS="-L /usr/lib -l iconv" cargo build --release
 ```
 
 Or on other systems, ensure the `port` library headers are available for compilation.
